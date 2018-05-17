@@ -1,8 +1,9 @@
-import sys
 import pandas as pd
-import json
 import numpy as np
 from scipy.stats import norm
+from rpy2.robjects.packages import importr
+
+split = importr('fanplot')
 
 def shi_gamma(df)
 
